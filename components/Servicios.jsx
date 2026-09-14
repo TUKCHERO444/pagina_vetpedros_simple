@@ -20,13 +20,13 @@ const servicios = [
     icon: Syringe,
     title: "Vacunación",
     desc: "Plan de vacunación completo y a tiempo para cada etapa de vida de tu mascota.",
-    image: "/imgs/servicios/vacunacion.jpg",
+    image: "/imgs/vetpedros/saladeatencion2.jpeg",
   },
   {
     icon: FirstAidKit,
     title: "Urgencias",
     desc: "Atención rápida ante emergencias con prioridad en la estabilización y el bienestar.",
-    image: "/imgs/servicios/urgencias.jpg",
+    image: "/imgs/vetpedros/entradaprincipal.jpeg",
     tone: "red",
   },
   {
@@ -45,7 +45,7 @@ const servicios = [
     icon: PawPrint,
     title: "Peluquería",
     desc: "Baño, corte y cuidado estético para que tu mascota se vea y se sienta genial.",
-    image: "/imgs/servicios/peluqueria.jpg",
+    image: "/imgs/vetpedros/oreja1.jpeg",
   },
 ];
 
