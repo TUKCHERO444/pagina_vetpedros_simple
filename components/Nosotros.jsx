@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 import WaveDivider from "@/components/WaveDivider";
 
 const stats = [
-  { value: "+10", label: "años cuidando mascotas" },
+  { value: "+25", label: "años cuidando mascotas" },
   { value: "+5.000", label: "pacientes atendidos" },
   { value: "100%", label: "trato con cariño" },
 ];

@@ -54,7 +54,7 @@ export default function Footer() {
             {[
               { icon: InstagramLogo, label: "Instagram", href: "#" },
               { icon: FacebookLogo, label: "Facebook", href: "#" },
-              { icon: WhatsappLogo, label: "WhatsApp", href: "https://wa.me/51999888777" },
+              { icon: WhatsappLogo, label: "WhatsApp", href: "https://wa.me/51943841602" },
             ].map(({ icon: Icon, label, href }) => (
               <a
                 key={label}
@@ -92,8 +92,8 @@ export default function Footer() {
           </h3>
           <ul className="mt-4 space-y-3">
             {[
-              { icon: MapPin, text: "Av. Ejemplo 123, San Miguel, Lima" },
-              { icon: Phone, text: "(01) 555-1234" },
+              { icon: MapPin, text: "Elvira García y García 198, José Olaya, Chiclayo" },
+              { icon: Phone, text: "+51 943 841 602" },
               { icon: Envelope, text: "hola@vetpedros.com" },
             ].map(({ icon: Icon, text }) => (
               <li key={text} className="flex items-start gap-2 text-sm text-ink-muted">

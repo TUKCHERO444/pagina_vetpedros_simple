@@ -71,7 +71,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-wrap gap-6">
               <div className="flex items-center gap-2 text-sm text-ink-muted">
                 <Stethoscope size={20} className="text-primary-dark" aria-hidden="true" />
-                +10 años de experiencia
+                +25 años de experiencia
               </div>
             </div>
           </Reveal>

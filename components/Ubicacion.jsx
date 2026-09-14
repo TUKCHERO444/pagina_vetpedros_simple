@@ -7,20 +7,20 @@ const contact = [
   {
     icon: MapPin,
     label: "Dirección",
-    value: "Av. Ejemplo 123, San Miguel, Lima",
+    value: "Elvira García y García 198, esq. con Cajamarca. José Olaya, Chiclayo",
     href: "#",
   },
   {
     icon: Phone,
     label: "Teléfono",
-    value: "(01) 555-1234",
-    href: "tel:+5115551234",
+    value: "+51 943 841 602",
+    href: "tel:+51943841602",
   },
   {
     icon: WhatsappLogo,
     label: "WhatsApp",
-    value: "999 888 777",
-    href: "https://wa.me/51999888777",
+    value: "+51 943 841 602",
+    href: "https://wa.me/51943841602",
   },
   {
     icon: Envelope,

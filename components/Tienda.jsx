@@ -90,7 +90,7 @@ export default function Tienda() {
 
         <Reveal className="mt-12 text-center">
           <a
-            href="https://wa.me/51999888777"
+            href="https://wa.me/51943841602"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-accent-dark px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-accent/20 transition-all duration-200 hover:bg-accent-night"

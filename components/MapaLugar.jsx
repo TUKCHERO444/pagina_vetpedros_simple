@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const position = [-12.0464, -77.0428];
+const position = [-6.773569256135427, -79.85463988853544];
 
 const customIcon = L.divIcon({
   className: "",
