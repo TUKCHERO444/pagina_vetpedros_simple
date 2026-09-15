@@ -2,9 +2,7 @@ import {
   PawPrint,
   Phone,
   WhatsappLogo,
-  Envelope,
   MapPin,
-  InstagramLogo,
   FacebookLogo,
 } from "@phosphor-icons/react/ssr";
 
@@ -52,8 +50,7 @@ export default function Footer() {
           </p>
           <div className="mt-6 flex gap-3">
             {[
-              { icon: InstagramLogo, label: "Instagram", href: "#" },
-              { icon: FacebookLogo, label: "Facebook", href: "#" },
+              { icon: FacebookLogo, label: "Facebook", href: "https://www.facebook.com/VetPdros/" },
               { icon: WhatsappLogo, label: "WhatsApp", href: "https://wa.me/51943841602" },
             ].map(({ icon: Icon, label, href }) => (
               <a
@@ -94,7 +91,6 @@ export default function Footer() {
             {[
               { icon: MapPin, text: "Elvira García y García 198, José Olaya, Chiclayo" },
               { icon: Phone, text: "+51 943 841 602" },
-              { icon: Envelope, text: "hola@vetpedros.com" },
             ].map(({ icon: Icon, text }) => (
               <li key={text} className="flex items-start gap-2 text-sm text-ink-muted">
                 <Icon size={18} className="mt-0.5 shrink-0 text-ember" aria-hidden="true" />

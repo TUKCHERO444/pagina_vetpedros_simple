@@ -19,17 +19,7 @@ export default function Hero() {
       </div>
 
       <div
-        className="pointer-events-none absolute inset-0 lg:hidden"
-        aria-hidden="true"
-      >
-        <img
-          src="/imgs/vetpedros/banner1.jpeg"
-          alt=""
-          className="h-full w-full object-cover"
-        />
-      </div>
-      <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-b from-sun-pale from-25% via-sun-pale/45 via-55% to-sun-pale/80 lg:hidden"
+        className="pointer-events-none absolute inset-0 bg-sun-pale lg:hidden"
         aria-hidden="true"
       />
 
@@ -38,7 +28,7 @@ export default function Hero() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto w-full max-w-7xl px-4 pb-24 pt-28 sm:px-6 lg:pb-16 lg:px-8">
+      <div className="relative mx-auto w-full max-w-7xl px-4 pb-12 pt-28 sm:px-6 lg:pb-16 lg:px-8">
         <div className="max-w-xl">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary-soft bg-white/80 px-4 py-1.5 text-sm font-medium text-primary-deep backdrop-blur-sm">
@@ -91,6 +81,18 @@ export default function Hero() {
             </div>
           </Reveal>
         </div>
+      </div>
+
+      <div
+        className="relative h-56 w-full overflow-hidden sm:h-80 lg:hidden"
+        aria-hidden="true"
+      >
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-sun-pale to-transparent" />
+        <img
+          src="/imgs/vetpedros/banner1.jpeg"
+          alt="Banner de Vet Pedros"
+          className="h-full w-full object-cover"
+        />
       </div>
     </section>
   );

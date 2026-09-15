@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, WhatsappLogo, Envelope } from "@phosphor-icons/react/ssr";
+import { MapPin, Clock, Phone, WhatsappLogo } from "@phosphor-icons/react/ssr";
 import Mapa from "@/components/Mapa";
 import Reveal from "@/components/Reveal";
 import WaveDivider from "@/components/WaveDivider";
@@ -21,12 +21,6 @@ const contact = [
     label: "WhatsApp",
     value: "+51 943 841 602",
     href: "https://wa.me/51943841602",
-  },
-  {
-    icon: Envelope,
-    label: "Email",
-    value: "hola@vetpedros.com",
-    href: "mailto:hola@vetpedros.com",
   },
 ];
 
