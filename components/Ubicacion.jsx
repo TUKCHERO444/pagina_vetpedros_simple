@@ -70,12 +70,12 @@ export default function Ubicacion() {
 
           <div className="flex flex-col gap-6">
             <Reveal>
-              <div className="overflow-hidden rounded-2xl">
+              <div className="flex h-40 items-center justify-center overflow-hidden rounded-2xl border border-line bg-gradient-to-br from-surface-soft via-paper to-primary-pale p-6 shadow-sm">
                 <img
-                  src="/imgs/vetpedros/entradaprincipal.jpeg"
-                  alt="Entrada de Vet Pedros"
+                  src="/imgs/vetpedros/logovetpedros.png"
+                  alt="Vet Pedros — logo"
                   loading="lazy"
-                  className="h-40 w-full object-cover"
+                  className="h-28 w-auto object-contain"
                 />
               </div>
             </Reveal>

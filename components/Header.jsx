@@ -42,7 +42,7 @@ export default function Header() {
           <img
             src="/imgs/vetpedros/logovetpedros.png"
             alt=""
-            className="h-10 w-auto"
+            className="h-14 w-auto"
             aria-hidden="true"
           />
           <span className="font-heading text-2xl font-bold uppercase tracking-wide">

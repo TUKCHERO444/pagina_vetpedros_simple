@@ -12,18 +12,33 @@ export default function Hero() {
         aria-hidden="true"
       >
         <img
-          src="/imgs/vetpedros/saladeatencion1.jpeg"
-          alt="Sala de atención de Vet Pedros"
+          src="/imgs/vetpedros/banner1.jpeg"
+          alt="Banner de Vet Pedros"
           className="h-full w-full object-cover"
         />
       </div>
 
       <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-sun-pale/95 via-sun-pale/65 to-transparent"
+        className="pointer-events-none absolute inset-0 lg:hidden"
+        aria-hidden="true"
+      >
+        <img
+          src="/imgs/vetpedros/banner1.jpeg"
+          alt=""
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div
+        className="pointer-events-none absolute inset-0 bg-gradient-to-b from-sun-pale from-25% via-sun-pale/45 via-55% to-sun-pale/80 lg:hidden"
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8">
+      <div
+        className="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-sun-pale/95 via-sun-pale/65 to-transparent lg:block"
+        aria-hidden="true"
+      />
+
+      <div className="relative mx-auto w-full max-w-7xl px-4 pb-24 pt-28 sm:px-6 lg:pb-16 lg:px-8">
         <div className="max-w-xl">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary-soft bg-white/80 px-4 py-1.5 text-sm font-medium text-primary-deep backdrop-blur-sm">
@@ -75,16 +90,6 @@ export default function Hero() {
               </div>
             </div>
           </Reveal>
-
-          <div className="mt-10 lg:hidden">
-            <Reveal>
-              <img
-                src="/imgs/vetpedros/saladeatencion1.jpeg"
-                alt="Sala de atención de Vet Pedros"
-                className="h-64 w-full rounded-2xl object-cover shadow-lg"
-              />
-            </Reveal>
-          </div>
         </div>
       </div>
     </section>
