@@ -25,8 +25,8 @@ const contact = [
 ];
 
 const horarios = [
-  { day: "Lunes a Viernes", hours: "8:00 – 19:00" },
-  { day: "Sábados", hours: "9:00 – 17:00" },
+  { day: "Lunes a Sábado", hours: "9:00 AM – 20:00 PM" },
+  { day: "Domingo", hours: "Citas" },
 ];
 
 export default function Ubicacion() {

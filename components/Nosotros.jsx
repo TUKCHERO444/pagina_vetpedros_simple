@@ -11,7 +11,7 @@ const stats = [
 const fotos = [
   { src: "/imgs/vetpedros/doctor1.jpeg", alt: "Equipo veterinario de Vet Pedros" },
   { src: "/imgs/vetpedros/doctor2.jpeg", alt: "Equipo veterinario de Vet Pedros" },
-  { src: "/imgs/vetpedros/pareddetitulos.jpeg", alt: "Títulos y certificaciones" },
+  { src: "/imgs/vetpedros/banner1.jpeg", alt: "Banner de Vet Pedros" },
 ];
 
 export default function Nosotros() {
