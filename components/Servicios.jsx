@@ -14,7 +14,7 @@ const servicios = [
     icon: Stethoscope,
     title: "Consultas",
     desc: "Atención general y chequeos periódicos con diagnóstico claro y trato cercano.",
-    image: "/imgs/vetpedros/cliente1.jpg",
+    image: "/imgs/vetpedros/cliente1.jpeg",
   },
   {
     icon: Syringe,
