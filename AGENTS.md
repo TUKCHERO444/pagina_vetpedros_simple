@@ -4,7 +4,7 @@ Landing page de **clínica veterinaria** construida como **plantilla reutilizabl
 
 > **IMPORTANTE — es una PLANTILLA reutilizable.** Ya está personalizada para **Vet Pedros** pero puede reutilizarse para otra veterinaria. Los assets reales de Vet Pedros están en `public/imgs/vetpedros/`. Al personalizar para OTRA veterinaria hay que reemplazar TODOS estos puntos — si falla uno, la marca queda mezclada:
 > - Marca/logo ("Vet Pedros") y links en `components/Header.jsx`
-> - `metadata` (title/description) en `app/layout.jsx`
+> - `metadata` (title/description) en `app/layout.jsx` **y** los datos NAP/URL/servicios en `site.config.js` (fuente de `sitemap`, `robots`, `manifest` y JSON-LD)
 > - Corporativo de marca en `design.md` **Y los tokens `@theme` que refleja en `app/globals.css`** (siempre juntos)
 > - Datos de contacto/WhatsApp/horarios en `components/Ubicacion.jsx` y `components/WhatsAppButton.jsx`
 > - Textos del negocio en `Hero.jsx` (`textSlides`), `Servicios.jsx`, `Nosotros.jsx`, `Tienda.jsx`, `Footer.jsx`
@@ -36,8 +36,10 @@ No hay tests, linter ni typecheck configurados. `npm run build` es la única ver
 
 ## Estructura real (difiere del docs de referencia)
 
-- `app/` — `layout.jsx` (server, fonts, metadata, HTML global), `page.jsx` (compone secciones), `globals.css`, `favicon.ico`
+- `app/` — `layout.jsx` (server, fonts, metadata completo SEO/GEO + JSON-LD VeterinaryCare), `page.jsx` (compone secciones), `globals.css`, `sitemap.js` (/sitemap.xml), `robots.js` (/robots.txt), `manifest.js` (/manifest.webmanifest)
 - `app/page.jsx` orden de secciones: `Header → main(Servicios, Nosotros, Tienda, Ubicacion) → Footer` + `WhatsAppButton` flotante
+- `site.config.js` — **fuente única de datos del negocio** (NAP, URL base, horarios, redes, servicios, coordenadas). La usan `layout.jsx` (metadata + JSON-LD), `sitemap.js`, `robots.js` y `manifest.js`. La URL base es `process.env.NEXT_PUBLIC_SITE_URL || "https://vetpedros.netlify.app"`.
+- `netlify.toml` — deploy: build `npm run build`, publish `.next`, plugin `@netlify/plugin-nextjs` (instalado en devDeps)
 - `components/` — un archivo por sección (ver lista client/server arriba). `WaveDivider.jsx` = divisor con ola entre secciones (`fill` = color de la sección anterior)
 - `public/imgs/` (subcarpetas `servicios/`, `vetpedros/`), `public/hero/slide-*.jpg`
 
@@ -45,6 +47,8 @@ No hay tests, linter ni typecheck configurados. `npm run build` es la única ver
 
 - `docs/ARQUITECTURA.md` — arquitectura de esta página descrita como **plantilla reutilizable** (estructura real, patrones, checklist de personalización para nueva veterinaria)
 - `docs/CVE-2025-55182-NETLIFY.md` — **crítico para deploys**.
+- `docs/DEPLOY-NETLIFY.md` — pasos de deploy en Netlify + verificación SEO post-deploy.
+- `docs/RESUMEN.md` — resumen de lo ejecutado (SEO/GEO/deploy).
 - `docs/frase.txt` — copy base del negocio.
 
 ## Gotcha de deploy (NO ignorar)

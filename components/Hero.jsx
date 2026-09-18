@@ -13,7 +13,7 @@ export default function Hero() {
       >
         <img
           src="/imgs/vetpedros/banner1.jpeg"
-          alt="Banner de Vet Pedros"
+          alt="Clínica veterinaria Vet Pedros en Chiclayo"
           className="h-full w-full object-cover"
         />
       </div>
@@ -90,7 +90,7 @@ export default function Hero() {
         <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-sun-pale to-transparent" />
         <img
           src="/imgs/vetpedros/banner1.jpeg"
-          alt="Banner de Vet Pedros"
+          alt="Clínica veterinaria Vet Pedros en Chiclayo"
           className="h-full w-full object-cover"
         />
       </div>

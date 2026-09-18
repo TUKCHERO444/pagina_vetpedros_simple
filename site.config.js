@@ -1,0 +1,73 @@
+export const site = {
+  name: "Vet Pedros",
+  legalName: "Vet Pedros E.I.R.L.",
+  shortName: "Vet Pedros",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://vetpedros.netlify.app",
+  locale: "es_PE",
+  language: "es",
+  slogan: "Tu Mascota, Tu Familia",
+  title: "Vet Pedros | Clínica Veterinaria en Chiclayo",
+  description:
+    "Clínica veterinaria en Chiclayo: consultas, vacunación, urgencias, cirugía, laboratorio, ecografías, peluquería y tienda para mascotas. Desde 2005, más de 25 años cuidando a tu mascota como parte de la familia.",
+  keywords: [
+    "veterinaria Chiclayo",
+    "clínica veterinaria Chiclayo",
+    "veterinario José Olaya",
+    "veterinario 24 horas Chiclayo",
+    "urgencias veterinarias Chiclayo",
+    "vacunación para mascotas Chiclayo",
+    "cirugía veterinaria Chiclayo",
+    "ecografía veterinaria",
+    "laboratorio veterinario Chiclayo",
+    "peluquería canina Chiclayo",
+    "tienda de mascotas Chiclayo",
+    "Vet Pedros",
+  ],
+  telephone: "+51943841602",
+  telephoneDisplay: "+51 943 841 602",
+  whatsapp: "https://wa.me/51943841602",
+  email: null,
+  address: {
+    street: "Elvira García y García 198, esq. con Cajamarca",
+    locality: "José Olaya",
+    city: "Chiclayo",
+    region: "Lambayeque",
+    regionCode: "PE-LAM",
+    country: "Perú",
+    countryCode: "PE",
+    full: "Elvira García y García 198, esq. con Cajamarca. José Olaya, Chiclayo, Lambayeque, Perú",
+  },
+  geo: {
+    lat: -6.773569256135427,
+    lng: -79.85463988853544,
+  },
+  hours: [
+    { days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "09:00", closes: "20:00" },
+  ],
+  hoursDisplay: [
+    { day: "Lunes a Sábado", hours: "9:00 AM – 8:00 PM" },
+    { day: "Domingo", hours: "Citas" },
+  ],
+  founded: "2005",
+  experience: "+25 años cuidando mascotas",
+  patients: "+5.000 pacientes atendidos",
+  socials: {
+    facebook: "https://www.facebook.com/VetPdros/",
+  },
+  services: [
+    "Consultas",
+    "Vacunación",
+    "Urgencias",
+    "Laboratorio",
+    "Cirugía",
+    "Peluquería",
+    "Ecografías",
+    "Internamiento",
+  ],
+  images: {
+    logo: "/imgs/vetpedros/logovetpedros.png",
+    hero: "/imgs/vetpedros/banner1.jpeg",
+  },
+};
+
+export default site;
